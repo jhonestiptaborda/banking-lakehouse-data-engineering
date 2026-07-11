@@ -1,0 +1,41 @@
+# Datos locales
+data/*
+!data/.gitkeep
+
+# Archivos comprimidos
+*.zip
+*.rar
+*.7z
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Delta Lake local
+_delta_log/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Variables y credenciales
+.env
+*.pem
+*.key
+
+# Logs
+*.log
